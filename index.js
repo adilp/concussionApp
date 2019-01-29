@@ -63,6 +63,12 @@ const App = () => (
         title="Concussion Diagnosis"
             customStyles={{ backgroundColor: '#cc5500' }}
         />
+
+        <Buttons
+        style={styles.buttonStyle} 
+        title="Call Doctor"
+            customStyles={{ backgroundColor: '#cc5500' }}
+        />
     
 
       </ThemeProvider>
